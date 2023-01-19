@@ -12,8 +12,6 @@ const LogoText = styled.div`
 export function Logo() {
     return (
         <>
-            <LogoText>{`Living
-            like Titan`}</LogoText>
             <LogoText>Living<br />like Titan</LogoText>
         </>
     )
