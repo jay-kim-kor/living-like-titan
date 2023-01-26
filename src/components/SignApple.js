@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const RoundBlackBox = styled.div`
@@ -21,8 +22,10 @@ const RoundBlackBox = styled.div`
 `;
 export function SignApple() {
     return (
-        <RoundBlackBox>
-            <i class="fa-brands fa-apple" />Sign in with Apple
-        </RoundBlackBox>
+        <Link to='/create-routine'>
+            <RoundBlackBox>
+                <i className="fa-brands fa-apple" />Sign in with Apple
+            </RoundBlackBox>    
+        </Link>
     )
 }
